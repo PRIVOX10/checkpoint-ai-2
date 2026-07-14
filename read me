@@ -1,0 +1,38 @@
+Music Explorer
+
+A simple web app to search songs and artists using the Deezer API. Users can search for tracks, view album covers, and play 30-second previews directly in the browser.
+
+Project Spec
+
+Goal: Let users discover music by searching songs or artists and listening to previews.
+
+Features:
+
+
+Search bar to look up any song or artist
+Display results as cards (cover, title, artist)
+30-second audio preview player for each track
+
+
+Tech stack:
+
+
+HTML, CSS, JavaScript (vanilla)
+Deezer API (via a CORS proxy for browser requests)
+
+
+How to Run
+
+Open index.html in your browser, or visit the deployed GitHub Pages link.
+
+How it Works
+
+
+Type a song or artist name in the search bar and press Enter or click Search.
+The app fetches matching tracks from the Deezer API.
+Results are displayed as cards with cover art, title, artist, and a preview player.
+
+
+Deployment
+
+Deployed using GitHub Pages.
