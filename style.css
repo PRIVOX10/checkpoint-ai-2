@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0f1a;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #1a1a2e;
+}
+
+h1 {
+  color: #a288f7;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+#search-input {
+  padding: 10px 15px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c4ce0;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#search-btn:hover {
+  background-color: #5537c9;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.track-card {
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+}
+
+.track-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.track-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.track-artist {
+  color: #a288f7;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.track-card audio {
+  width: 100%;
+  margin-top: 10px;
+}
